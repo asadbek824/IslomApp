@@ -11,27 +11,7 @@
 		7B62EA882C5ACEA6008DC0F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62EA872C5ACEA6008DC0F2 /* ContentView.swift */; };
 		7B62EA8A2C5ACEA7008DC0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B62EA892C5ACEA7008DC0F2 /* Assets.xcassets */; };
 		7B62EA8D2C5ACEA7008DC0F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B62EA8C2C5ACEA7008DC0F2 /* Preview Assets.xcassets */; };
-		7B62EA972C5ACEA8008DC0F2 /* IslomAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62EA962C5ACEA8008DC0F2 /* IslomAppTests.swift */; };
-		7B62EAA12C5ACEA8008DC0F2 /* IslomAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62EAA02C5ACEA8008DC0F2 /* IslomAppUITests.swift */; };
-		7B62EAA32C5ACEA8008DC0F2 /* IslomAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62EAA22C5ACEA8008DC0F2 /* IslomAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7B62EA932C5ACEA8008DC0F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B62EA7A2C5ACEA6008DC0F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B62EA812C5ACEA6008DC0F2;
-			remoteInfo = IslomApp;
-		};
-		7B62EA9D2C5ACEA8008DC0F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B62EA7A2C5ACEA6008DC0F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B62EA812C5ACEA6008DC0F2;
-			remoteInfo = IslomApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7B62EA822C5ACEA6008DC0F2 /* IslomApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslomApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +19,10 @@
 		7B62EA872C5ACEA6008DC0F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B62EA892C5ACEA7008DC0F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B62EA8C2C5ACEA7008DC0F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7B62EA922C5ACEA8008DC0F2 /* IslomAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslomAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B62EA962C5ACEA8008DC0F2 /* IslomAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomAppTests.swift; sourceTree = "<group>"; };
-		7B62EA9C2C5ACEA8008DC0F2 /* IslomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B62EAA02C5ACEA8008DC0F2 /* IslomAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomAppUITests.swift; sourceTree = "<group>"; };
-		7B62EAA22C5ACEA8008DC0F2 /* IslomAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslomAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7B62EA7F2C5ACEA6008DC0F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA8F2C5ACEA8008DC0F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA992C5ACEA8008DC0F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				7B62EA842C5ACEA6008DC0F2 /* IslomApp */,
-				7B62EA952C5ACEA8008DC0F2 /* IslomAppTests */,
-				7B62EA9F2C5ACEA8008DC0F2 /* IslomAppUITests */,
 				7B62EA832C5ACEA6008DC0F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				7B62EA822C5ACEA6008DC0F2 /* IslomApp.app */,
-				7B62EA922C5ACEA8008DC0F2 /* IslomAppTests.xctest */,
-				7B62EA9C2C5ACEA8008DC0F2 /* IslomAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +67,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7B62EA952C5ACEA8008DC0F2 /* IslomAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				7B62EA962C5ACEA8008DC0F2 /* IslomAppTests.swift */,
-			);
-			path = IslomAppTests;
-			sourceTree = "<group>";
-		};
-		7B62EA9F2C5ACEA8008DC0F2 /* IslomAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7B62EAA02C5ACEA8008DC0F2 /* IslomAppUITests.swift */,
-				7B62EAA22C5ACEA8008DC0F2 /* IslomAppUITestsLaunchTests.swift */,
-			);
-			path = IslomAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,42 +87,6 @@
 			productReference = 7B62EA822C5ACEA6008DC0F2 /* IslomApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B62EA912C5ACEA8008DC0F2 /* IslomAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B62EAA92C5ACEA8008DC0F2 /* Build configuration list for PBXNativeTarget "IslomAppTests" */;
-			buildPhases = (
-				7B62EA8E2C5ACEA8008DC0F2 /* Sources */,
-				7B62EA8F2C5ACEA8008DC0F2 /* Frameworks */,
-				7B62EA902C5ACEA8008DC0F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B62EA942C5ACEA8008DC0F2 /* PBXTargetDependency */,
-			);
-			name = IslomAppTests;
-			productName = IslomAppTests;
-			productReference = 7B62EA922C5ACEA8008DC0F2 /* IslomAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7B62EA9B2C5ACEA8008DC0F2 /* IslomAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B62EAAC2C5ACEA8008DC0F2 /* Build configuration list for PBXNativeTarget "IslomAppUITests" */;
-			buildPhases = (
-				7B62EA982C5ACEA8008DC0F2 /* Sources */,
-				7B62EA992C5ACEA8008DC0F2 /* Frameworks */,
-				7B62EA9A2C5ACEA8008DC0F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B62EA9E2C5ACEA8008DC0F2 /* PBXTargetDependency */,
-			);
-			name = IslomAppUITests;
-			productName = IslomAppUITests;
-			productReference = 7B62EA9C2C5ACEA8008DC0F2 /* IslomAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					7B62EA812C5ACEA6008DC0F2 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					7B62EA912C5ACEA8008DC0F2 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7B62EA812C5ACEA6008DC0F2;
-					};
-					7B62EA9B2C5ACEA8008DC0F2 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 7B62EA812C5ACEA6008DC0F2;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				7B62EA812C5ACEA6008DC0F2 /* IslomApp */,
-				7B62EA912C5ACEA8008DC0F2 /* IslomAppTests */,
-				7B62EA9B2C5ACEA8008DC0F2 /* IslomAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +127,6 @@
 			files = (
 				7B62EA8D2C5ACEA7008DC0F2 /* Preview Assets.xcassets in Resources */,
 				7B62EA8A2C5ACEA7008DC0F2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA902C5ACEA8008DC0F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA9A2C5ACEA8008DC0F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,37 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B62EA8E2C5ACEA8008DC0F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B62EA972C5ACEA8008DC0F2 /* IslomAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B62EA982C5ACEA8008DC0F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B62EAA32C5ACEA8008DC0F2 /* IslomAppUITestsLaunchTests.swift in Sources */,
-				7B62EAA12C5ACEA8008DC0F2 /* IslomAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B62EA942C5ACEA8008DC0F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B62EA812C5ACEA6008DC0F2 /* IslomApp */;
-			targetProxy = 7B62EA932C5ACEA8008DC0F2 /* PBXContainerItemProxy */;
-		};
-		7B62EA9E2C5ACEA8008DC0F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B62EA812C5ACEA6008DC0F2 /* IslomApp */;
-			targetProxy = 7B62EA9D2C5ACEA8008DC0F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B62EAA42C5ACEA8008DC0F2 /* Debug */ = {
@@ -347,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -428,8 +278,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +288,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,8 +312,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,85 +322,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7B62EAAA2C5ACEA8008DC0F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IslomApp";
-			};
-			name = Debug;
-		};
-		7B62EAAB2C5ACEA8008DC0F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IslomApp";
-			};
-			name = Release;
-		};
-		7B62EAAD2C5ACEA8008DC0F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IslomApp;
-			};
-			name = Debug;
-		};
-		7B62EAAE2C5ACEA8008DC0F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3DJM2CZRX2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AssA.IslomAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IslomApp;
 			};
 			name = Release;
 		};
@@ -565,24 +349,6 @@
 			buildConfigurations = (
 				7B62EAA72C5ACEA8008DC0F2 /* Debug */,
 				7B62EAA82C5ACEA8008DC0F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B62EAA92C5ACEA8008DC0F2 /* Build configuration list for PBXNativeTarget "IslomAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B62EAAA2C5ACEA8008DC0F2 /* Debug */,
-				7B62EAAB2C5ACEA8008DC0F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B62EAAC2C5ACEA8008DC0F2 /* Build configuration list for PBXNativeTarget "IslomAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B62EAAD2C5ACEA8008DC0F2 /* Debug */,
-				7B62EAAE2C5ACEA8008DC0F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
